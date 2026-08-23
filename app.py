@@ -9,7 +9,7 @@ features = joblib.load('model_features.pkl')
 
 st.title("SEO First Page Rank Predictor")
 
-# Radio button to select between URL input and Manual input
+
 mode = st.radio("Choose Input Method:", ["Auto Scrape via URL", "Manual Data Input"])
 
 if mode == "Auto Scrape via URL":
